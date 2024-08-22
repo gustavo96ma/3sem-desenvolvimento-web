@@ -1,7 +1,9 @@
-# Aula 01
+# Aula 02
 
 1.  Preparação do ambiente de desenvolvimento geral
 2.  Trabalhando com git e github no VSCode
+
+3.  Introdução a React e Typescript e Preparação do ambiente de desenvolvimento
 
 ---
 
@@ -19,17 +21,23 @@ Em seguida vamos escolher ou criar uma pasta para trabalhar e iniciar um reposit
 
 Após instalar vamos rodar o comando:
 
-`gh repo create teste` ou `gh repo create teste --private`
+`gh repo create teste`
+
+ou
+
+`gh repo create teste --private`
 
 E vamos criar nosso readme.md e fazer o primeiro commit nesse repositório:
 
-`echo "# README" >> README.md`
-`git init`
-`git add README.md`
-`git commit -m "first commit"`
-`git branch -M main`
-`git remote add origin https://github.com/seu_usuario/teste.git`
-`git push -u origin main`
+```CMD
+echo "# README" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/seu_usuario/teste.git
+git push -u origin main
+```
 
 ---
 
