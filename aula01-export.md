@@ -1,9 +1,7 @@
-# Aula 02
+# Aula 01
 
 1.  Preparação do ambiente de desenvolvimento geral
 2.  Trabalhando com git e github no VSCode
-
-3.  Introdução a React e Typescript e Preparação do ambiente de desenvolvimento
 
 ---
 
