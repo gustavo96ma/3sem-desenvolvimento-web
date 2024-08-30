@@ -1,0 +1,12 @@
+/* No css a gente tem que especificar o elemento ao qual queremos aplicar o estilo. Fazemos isso declarando SELETORES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+   width: 100px;
+   height: 100px;
+}
+
