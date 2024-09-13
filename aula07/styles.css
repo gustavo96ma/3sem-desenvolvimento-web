@@ -1,0 +1,79 @@
+/* No css a gente tem que especificar o elemento ao qual queremos aplicar o estilo. Fazemos isso declarando SELETORES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    /* margin: 8px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: steelblue;
+}
+
+header img{
+   width: 60px;
+   margin-left: 8px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fece66;
+}
+
+header p{
+    font-size: 48px;
+    color: #fece66;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* BODY */
+body{
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    padding: 16px;
+}
+
+body div{
+    display: flex;
+}
+
+body div img {
+    height: 300px;
+}
+
+.texto-imagem{
+    padding: 0 24px 0 16px;
+    margin: 8px 0;
+}
+
+#div-texto-imagem{
+    display: flex;
+    flex-direction: column;
+}
